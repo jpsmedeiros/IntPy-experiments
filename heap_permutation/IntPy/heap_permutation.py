@@ -4,7 +4,7 @@ from intpy import deterministic
 @deterministic
 def heap_permutation(data, n):
     if n == 1:
-        print(data)
+        #print(data)
         return
     for i in range(n):
         heap_permutation(data, n - 1)
